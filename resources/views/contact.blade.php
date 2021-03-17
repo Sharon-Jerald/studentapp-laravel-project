@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>\
+<head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student</title>
+    <title>Document</title>
 </head>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Student</a>
@@ -30,33 +29,29 @@
   </div>
 </nav>
 <body><br><br>
-   <center> <div class="container">
-    <div class="row">
-    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-    <table class="table table-borderless">
-    <tr>
-        <td>Name</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Roll No.</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Admission No.</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>College Name</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><button class="btn btn-secondary">Submit</button></td>
-    </tr>
-    </table>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <table class="table table-borderless">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>Phone No</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="btn btn-secondary">Submit</button></td>
+            </tr>
+            </table>
+            </div>
+        </div>
     </div>
-    </div>
-    </div></center>
 </body>
 </html>
